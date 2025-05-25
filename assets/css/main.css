@@ -1732,9 +1732,16 @@ section,
 .starter-section {
   /* Add your styles here */
 }
-@media (max-width: 768px) {
-  .logo {
-    justify-content: flex-end !important;
+@media (max-width: 1199px) {
+  .header .logo {
+    margin-left: auto;
+    margin-right: 0;
     text-align: right;
+    display: block;
+  }
+
+  .header .container {
+    flex-direction: row-reverse;
   }
 }
+
