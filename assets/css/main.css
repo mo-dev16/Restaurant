@@ -1741,6 +1741,7 @@ section,
   }
 
   .header .container {
+    ustify-content: space-between;
     flex-direction: row-reverse;
   }
 }
